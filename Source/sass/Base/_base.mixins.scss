@@ -4,3 +4,10 @@
   -ms-#{$property}: $value;
   #{$property}: $value;
 }
+
+@mixin hocus() {
+  &:hover,
+  &:focus {
+    @content;
+  }
+}

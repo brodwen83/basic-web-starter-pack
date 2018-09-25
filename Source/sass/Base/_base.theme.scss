@@ -1,12 +1,14 @@
+@import "base.mixins";
+
 html {
-  background: $color3;
+  background: $color5;
   color: $color6;
 }
 
 a {
   color: $color4;
   text-decoration: none;
-  &:hover {
+  @include hocus() {
     color: $color2;
   }
 }

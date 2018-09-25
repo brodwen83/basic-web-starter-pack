@@ -4,13 +4,13 @@ body {
 
 /* RGB */
 html {
-  background: #006ba6;
+  background: #00205b;
   color: white; }
 
 a {
   color: #5bc2e7;
   text-decoration: none; }
-  a:hover {
+  a:hover, a:focus {
     color: #84bd00; }
 
 body {
@@ -57,15 +57,15 @@ blockquote {
     left: 0; }
 
 .box, .rounded-box {
-  background: #00205b;
+  background: #006ba6;
   padding: 24px; }
   .box > p, .rounded-box > p {
     margin: 0; }
 
 .rounded-box {
-  -webkit-border-radius: 20px 20px 50px 50px;
-  -moz-border-radius: 20px 20px 50px 50px;
-  -ms-border-radius: 20px 20px 50px 50px;
-  border-radius: 20px 20px 50px 50px; }
+  -webkit-border-radius: 1000px;
+  -moz-border-radius: 1000px;
+  -ms-border-radius: 1000px;
+  border-radius: 1000px; }
 
 /*# sourceMappingURL=style.css.map */
