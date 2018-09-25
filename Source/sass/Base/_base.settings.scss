@@ -1,0 +1,40 @@
+//
+// Base Settings
+//
+
+// High-level settings for the entire site
+// To create relational sizing and aezthetically planning design
+$base-sapacing-unit: 24px;
+$base-font-size: 16px;
+$base-line-height: $base-sapacing-unit;
+
+// Spacing sizes
+$spacing-smaller: $base-sapacing-unit / 3;
+$spacing-small: $base-sapacing-unit / 2;
+$spacing-normal: $base-sapacing-unit;
+$spacing-large: $base-sapacing-unit * 1.5;
+$spacing-larger: $base-sapacing-unit * 2;
+$spacing-largeest: $base-sapacing-unit * 3;
+
+// Font sizes
+$font-xsmall: $base-font-size/1.6;
+$font-small: $base-font-size/1.3;
+$font-normal: $base-font-size;
+$font-large: $base-font-size * 1.5;
+$font-larger: $base-font-size * 2;
+$font-largest: $base-font-size * 3;
+
+// Font weights
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-bold: 500;
+$font-weight-black: 700;
+$font-weight-heading: $font-weight-bold;
+
+// Header sizes
+$header-size-1: $base-font-size * 2;
+$header-size-2: $base-font-size * 1.5;
+$header-size-3: $base-font-size * 1.35;
+$header-size-4: $base-font-size * 1.2;
+$header-size-5: $base-font-size;
+$header-size-6: $base-font-size * 0.9;

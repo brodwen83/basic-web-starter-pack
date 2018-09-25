@@ -1,0 +1,12 @@
+html {
+  background: $color3;
+  color: $color6;
+}
+
+a {
+  color: $color4;
+  text-decoration: none;
+  &:hover {
+    color: $color2;
+  }
+}
