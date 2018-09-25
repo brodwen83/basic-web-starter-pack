@@ -1,1 +1,30 @@
 @import "Base/base";
+
+blockquote {
+  border-left: 3px solid $color2;
+  padding-left: $spacing-normal;
+  position: relative;
+  font-style: italic;
+
+  &:after {
+    font-size: $font-largest;
+    content: '"';
+    color: $color2;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+
+.box {
+  background: $color5;
+  padding: $spacing-normal;
+  > p {
+    margin: 0;
+  }
+}
+
+.rounded-box {
+  @extend .box;
+  border-radius: $spacing-largest;
+}

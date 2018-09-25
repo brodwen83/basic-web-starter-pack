@@ -43,4 +43,26 @@ h5 {
 h6 {
   font-size: 14.4px; }
 
+blockquote {
+  border-left: 3px solid #84bd00;
+  padding-left: 24px;
+  position: relative;
+  font-style: italic; }
+  blockquote:after {
+    font-size: 48px;
+    content: '"';
+    color: #84bd00;
+    position: absolute;
+    top: 0;
+    left: 0; }
+
+.box, .rounded-box {
+  background: #00205b;
+  padding: 24px; }
+  .box > p, .rounded-box > p {
+    margin: 0; }
+
+.rounded-box {
+  border-radius: 72px; }
+
 /*# sourceMappingURL=style.css.map */
