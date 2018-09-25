@@ -26,5 +26,5 @@ blockquote {
 
 .rounded-box {
   @extend .box;
-  border-radius: $spacing-largest;
+  @include vendor(border-radius, 20px 20px 50px 50px);
 }

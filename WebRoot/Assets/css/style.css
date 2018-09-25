@@ -63,6 +63,9 @@ blockquote {
     margin: 0; }
 
 .rounded-box {
-  border-radius: 72px; }
+  -webkit-border-radius: 20px 20px 50px 50px;
+  -moz-border-radius: 20px 20px 50px 50px;
+  -ms-border-radius: 20px 20px 50px 50px;
+  border-radius: 20px 20px 50px 50px; }
 
 /*# sourceMappingURL=style.css.map */
